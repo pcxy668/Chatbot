@@ -1,0 +1,21 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "Com/Com_utils.c"
+        "Int/Int_button.c"
+        "Int/Int_wifi.c"
+        "Int/Int_lcd.c"
+        "Int/Int_lvgl.c"
+        "Int/Int_activate.c"
+        "Int/Int_hard_codec.c"
+        "Int/Int_sr.c"
+        "Int/Int_opus_encoder.c"
+        "Int/Int_opus_decoder.c"
+        "Int/Int_websocket.c"
+    INCLUDE_DIRS 
+        "."
+        "Com"
+        "Int"
+    EMBED_FILES 
+    
+    )
